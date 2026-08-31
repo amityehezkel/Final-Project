@@ -1,0 +1,15 @@
+python -m mvp_pipeline fiber-folder `
+  --images "example runs\fiber-folder\crops_a" `
+  --nm-per-pixel 9.0987 `
+  --axon-masks "example runs\fiber-folder\axon_masks_a" `
+  --outer-fiber-masks "example runs\fiber-folder\outer_fiber_masks_a" `
+  --output "example runs\fiber-folder\res_a"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+python -m mvp_pipeline fiber-folder `
+  --images "example runs\fiber-folder\crops_b" `
+  --nm-per-pixel 5.523 `
+  --axon-masks "example runs\fiber-folder\axon_masks_b" `
+  --outer-fiber-masks "example runs\fiber-folder\outer_fiber_masks_b" `
+  --output "example runs\fiber-folder\res_b"

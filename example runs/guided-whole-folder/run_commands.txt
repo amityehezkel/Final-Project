@@ -1,0 +1,11 @@
+python -m mvp_pipeline guided-whole-folder `
+  --input "example runs\guided-whole-folder\input_a" `
+  --nm-per-pixel 5.523 `
+  --output "example runs\guided-whole-folder\output_a"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+python -m mvp_pipeline guided-whole-folder `
+  --input "example runs\guided-whole-folder\input_b" `
+  --scales-csv "example runs\guided-whole-folder\input_b\scales_b.csv" `
+  --output "example runs\guided-whole-folder\output_b"

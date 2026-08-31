@@ -1,0 +1,24 @@
+python -m mvp_pipeline fiber-crop `
+  --image "example runs\fiber-crop\input_a\a_crop.tif" `
+  --nm-per-pixel 1.0908 `
+  --axon-mask "example runs\fiber-crop\input_a\a_axon.PNG" `
+  --outer-fiber-mask "example runs\fiber-crop\input_a\a_outer_fiber.PNG" `
+  --output "example runs\fiber-crop\a_res"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+python -m mvp_pipeline fiber-crop `
+  --image "example runs\fiber-crop\input_b\b_crop.tif" `
+  --nm-per-pixel 1.0908 `
+  --axon-mask "example runs\fiber-crop\input_b\b_axon.PNG" `
+  --outer-fiber-mask "example runs\fiber-crop\input_b\b_outer_fiber.PNG" `
+  --output "example runs\fiber-crop\b_res"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+python -m mvp_pipeline fiber-crop `
+  --image "example runs\fiber-crop\input_c\c_crop.tif" `
+  --nm-per-pixel 1.0908 `
+  --axon-mask "example runs\fiber-crop\input_c\c_axon.PNG" `
+  --outer-fiber-mask "example runs\fiber-crop\input_c\c_outer_fiber.PNG" `
+  --output "example runs\fiber-crop\c_res"

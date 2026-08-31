@@ -1,0 +1,17 @@
+{
+    "folder_with_segs_from_prev_stage": null,
+    "list_of_lists_or_source_folder": [
+        [
+            "C:\\Users\\yaniv\\OneDrive - mail.tau.ac.il\\\u05e9\u05e0\u05d4 \u05d2\\\u05e4\u05e8\u05d5\u05d9\u05d9\u05e7\u05d8\\work\\benchmark\\images\\damaged_12_axon-01.png"
+        ]
+    ],
+    "num_parts": 1,
+    "num_processes_preprocessing": 8,
+    "num_processes_segmentation_export": 8,
+    "output_folder_or_list_of_truncated_output_files": [
+        "C:\\Users\\yaniv\\OneDrive - mail.tau.ac.il\\\u05e9\u05e0\u05d4 \u05d2\\\u05e4\u05e8\u05d5\u05d9\u05d9\u05e7\u05d8\\work\\benchmark\\images\\damaged_12_axon-01_seg-nnunet"
+    ],
+    "overwrite": true,
+    "part_id": 0,
+    "save_probabilities": false
+}

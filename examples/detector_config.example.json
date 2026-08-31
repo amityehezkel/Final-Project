@@ -1,0 +1,12 @@
+{
+  "detector": "intensity",
+  "min_area_um2": 0.003,
+  "clahe_clip_limit": 0.01,
+  "gaussian_sigma_um": 0.02,
+  "morphology_radius_um": 0.01,
+  "exclude_scale_bar": false,
+  "scale_bar_right_fraction": 0.25,
+  "scale_bar_bottom_fraction": 0.2,
+  "tuned_on_split": null,
+  "development_median_dice": null
+}

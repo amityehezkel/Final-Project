@@ -1,0 +1,18 @@
+python -m mvp_pipeline whole-image `
+  --image "example runs\whole-image\whole-image_input_1.tif" `
+  --nm-per-pixel 5.523 `
+  --output "example runs\whole-image\res1"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+python -m mvp_pipeline whole-image `
+  --image "example runs\whole-image\whole-image_input_2.tif" `
+  --nm-per-pixel 5.523 `
+  --output "example runs\whole-image\res2"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+python -m mvp_pipeline whole-image `
+  --image "example runs\whole-image\whole-image_input_3.tif" `
+  --nm-per-pixel 11.0818 `
+  --output "example runs\whole-image\res3"

@@ -1,0 +1,15 @@
+{
+    "name": "Dataset444_AGG",
+    "description": "Aggregated dataset from all source domains",
+    "labels": {
+        "background": 0,
+        "myelin": 1,
+        "axon": 2
+    },
+    "channel_names": {
+        "0": "rescale_to_0_1"
+    },
+    "numTraining": 191,
+    "numTest": 21,
+    "file_ending": ".png"
+}

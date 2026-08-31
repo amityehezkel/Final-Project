@@ -1,0 +1,40 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.venv/
+venv/
+.conda/
+
+# User inputs and generated runs
+outputs/
+tuning/
+few_tests/
+guided_examples/outputs*/
+
+# Large source/reference material kept locally, not required at runtime
+ASTIH/
+דאטה מהמעבדה/
+מיילין פגוע/
+/*.pdf
+/תיוג תמונות.docx
+
+# Keep only the small reproducible resources under work/. The downloaded
+# AxonDeepSeg checkpoint and all generated evaluation/overlay folders stay local.
+work/*
+!work/best_model_results/
+work/best_model_results/*
+!work/best_model_results/detector_config.json
+!work/benchmark/
+!work/benchmark/**
+
+# Keep only final course deliverables in Git.
+deliverables/*.inspect.ndjson
+deliverables/*Draft*.docx
+deliverables/*Updated*.pptx
+deliverables/Vacuole_Aware_Myelin_Class_Presentation.pptx

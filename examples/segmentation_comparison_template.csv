@@ -1,0 +1,4 @@
+id,variant,axon_prediction_path,outer_prediction_path,axon_truth_path,outer_truth_path,correction_minutes
+example_axon,raw,path/to/raw_axon.png,path/to/raw_outer.png,path/to/truth_axon.png,path/to/truth_outer.png,0
+example_axon,scale_2.36,path/to/236_axon.png,path/to/236_outer.png,path/to/truth_axon.png,path/to/truth_outer.png,0
+example_axon,scale_4.93,path/to/493_axon.png,path/to/493_outer.png,path/to/truth_axon.png,path/to/truth_outer.png,0
