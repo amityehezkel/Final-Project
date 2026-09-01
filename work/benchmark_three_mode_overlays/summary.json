@@ -1,0 +1,7 @@
+{
+  "benchmark_fibers": 43,
+  "folders_created": 43,
+  "whole_mode_complete_misses": 18,
+  "whole_mode_fibers_recovered": 25,
+  "whole_mode_both_masks_pass": 15
+}

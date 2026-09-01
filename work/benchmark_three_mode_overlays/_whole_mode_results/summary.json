@@ -1,0 +1,30 @@
+{
+  "manifest": "C:\\Users\\yaniv\\OneDrive - mail.tau.ac.il\\\u05e9\u05e0\u05d4 \u05d2\\\u05e4\u05e8\u05d5\u05d9\u05d9\u05e7\u05d8\\Vacuole-Aware-Myelin-MVP\\work\\benchmark_three_mode_overlays\\whole_mode_input_manifest.csv",
+  "detector_config": {
+    "detector": "intensity",
+    "min_area_um2": 0.01,
+    "clahe_clip_limit": 0.01,
+    "intensity_threshold_offset": 0.2,
+    "intensity_low_threshold_offset": 0.1,
+    "gaussian_sigma_um": 0.02,
+    "morphology_radius_um": 0.02,
+    "boundary_refinement": true,
+    "refinement_max_distance_um": 0.05,
+    "refinement_growth_offset": -0.05,
+    "refinement_max_area_ratio": 1.5,
+    "thin_seed_rescue": true,
+    "rescue_morphology_radius_um": 0.005,
+    "rescue_min_area_um2": 0.0015,
+    "rescue_min_thickness_um": 0.045,
+    "rescue_max_radial_position": 0.55,
+    "rescue_max_eccentricity": 0.95,
+    "rescue_min_solidity": 0.85,
+    "exclude_scale_bar": false,
+    "scale_bar_right_fraction": 0.25,
+    "scale_bar_bottom_fraction": 0.2,
+    "tuned_on_split": "dev",
+    "development_median_dice": 0.7643981511315239
+  },
+  "n_processed": 43,
+  "n_excluded_by_qc": 18
+}
